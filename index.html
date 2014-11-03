@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Trainer</title>
+    <link rel="stylesheet" href="builds/css/app.css"/>
+    <script src="js/libs/requirejs/require.js"></script>
+</head>
+<body>
+    <h1 class="header">Welcome to index page!</h1>
+    <script>
+        require(['js/config'], function() {
+            // Configuration loaded now, safe to do other require calls
+            // that depend on that config.
+            require(['app/main'], function(App) {
+                App.sayName();
+                setTimeout(function() {
+                    App.addTitle('This is really exciting!')
+                }, 3000)
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+$defaultTextColor: #464646;
+
+body {
+  background-color: #DDD;
+}
+.header {
+  font-size: 1.6em;
+  color: $defaultTextColor;
+}
+.sub-header {
+  font-size: 1.2em;
+  color: $defaultTextColor;
+}

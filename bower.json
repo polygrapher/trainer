@@ -1,0 +1,22 @@
+{
+  "name": "trainer",
+  "version": "0.0.1",
+  "homepage": "https://github.com/polygrapher/trainer",
+  "authors": [
+    "polygrapher <sbegorov@gmail.com>"
+  ],
+  "description": "All kinds of explorations",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
